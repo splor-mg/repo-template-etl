@@ -1,6 +1,4 @@
-def hello():
-    return 'Hello, world!'
+from frictionless import Package
 
-
-if __name__ == '__main__':
-    print(hello())
+package = Package('datapackage.yaml')
+resource = package.get_resource('consonants')
