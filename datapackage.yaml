@@ -1,0 +1,30 @@
+name: letters
+title: Letras do alfabeto
+description: Este pacote de dados contém informações sobre as letras do alfabeto, incluindo consoantes e vogais.
+version: 1.1.0
+licenses:
+  - name: CC0-1.0
+    title: Creative Commons Zero v1.0 Universal (CC0 1.0) Public Domain Dedication
+resources:
+  - name: consonants
+    title: Consoantes
+    description: Este(a) recurso/tabela apresenta as consoantes do alfabeto.
+    type: table
+    path: data_raw/consonants.csv
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schemas/consonants.yaml
+    dialect: schemas/dialect_v1.yaml
+  - name: vowels
+    title: Vogais
+    description: Este(a) recurso/tabela apresenta as vogais do alfabeto.
+    type: table
+    path: data_raw/vowels.csv
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema: schemas/vowels.yaml
+    dialect: schemas/dialect_v1.yaml
