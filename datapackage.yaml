@@ -31,4 +31,4 @@ resources:
     schema: schemas/vowels.yaml
     dialect: schemas/dialect_v1.yaml
     extract_info:
-      - mode: email
+      mode: email

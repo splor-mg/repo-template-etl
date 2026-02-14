@@ -10,7 +10,7 @@ requires-python = '>=3.13,<4.0'
 dependencies = [
     'taskipy (>=1.14.1,<2.0.0)',
     "python-dotenv (>=1.2.1,<2.0.0)",
-    "etl-cli @ file:///home/m7522667%40ca.intra/code/splor-mg/etl-cli"
+    "etl-cli @ file:///home/gabrielbdornas/code/splor-mg/etl-cli",
 ]
 
 
