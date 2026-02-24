@@ -10,7 +10,7 @@ requires-python = '>=3.13,<4.0'
 dependencies = [
     'taskipy (>=1.14.1,<2.0.0)',
     "python-dotenv (>=1.2.1,<2.0.0)",
-    "etl-cli @ file:///home/gabrielbdornas/code/splor-mg/etl-cli",
+    "dpetl @ file:///home/gabrielbdornas/code/splor-mg/dpetl",
 ]
 
 
@@ -22,7 +22,7 @@ package-mode = false
 
 
 [tool.poetry.dependencies]
-etl-cli = {develop = true}
+dpetl = {develop = true}
 [build-system]
 requires = ['poetry-core>=2.0.0,<3.0.0']
 build-backend = 'poetry.core.masonry.api'
@@ -59,4 +59,4 @@ format = { cmd = 'ruff format', help = 'Formats code according to code style con
 pre_test = { cmd = 'task lint', help = 'Runs linters before running the tests.' }
 test = { cmd = 'pytest -s -x -vv', help = 'Runs unit tests.' }
 post_test = { cmd = 'coverage html', help = 'Generates a coverage report after the tests.' }
-extract = { cmd = 'etl extract', help = 'Runs ETL extract process.' }
+extract = { cmd = 'dpetl extract', help = 'Runs ETL extract process.' }
