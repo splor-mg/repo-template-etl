@@ -77,20 +77,15 @@ fields:
   - name: Valor Despesa Empenhada
     type: number
     target: vlr_empenhado
-    decimalChar: ','
   - name: Valor Despesa Liquidada
     type: number
     target: vlr_liquidado
-    decimalChar: ','
   - name: Valor Liquidado Retido
     type: number
     target: vlr_liquidado_retido
-    decimalChar: ','
   - name: Valor Pago Orçamentário
     type: number
     target: vlr_pago_orcamentario
-    decimalChar: ','
   - name: Valor Pago Financeiro
     type: number
     target: vlr_pago_financeiro
-    decimalChar: ','
