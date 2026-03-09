@@ -6,12 +6,6 @@ authors = [
     {name = 'Gabriel Dornas',email = 'gabrielbdornas@gmail.com'}
 ]
 readme = 'README.md'
-requires-python = '>=3.13,<4.0'
-dependencies = [
-    'taskipy (>=1.14.1,<2.0.0)',
-    "python-dotenv (>=1.2.1,<2.0.0)",
-    "dpetl @ file:///home/gabrielbdornas/code/splor-mg/dpetl",
-]
 
 
 [tool.repo-template]
@@ -22,7 +16,11 @@ package-mode = false
 
 
 [tool.poetry.dependencies]
-dpetl = {develop = true}
+python = ">=3.13,<4.0"
+taskipy = ">=1.14.1,<2.0.0"
+python-dotenv = ">=1.2.1,<2.0.0"
+dpetl = { path = "../dpetl", develop = true }
+
 [build-system]
 requires = ['poetry-core>=2.0.0,<3.0.0']
 build-backend = 'poetry.core.masonry.api'
