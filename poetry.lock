@@ -360,15 +360,13 @@ files = [
 
 [[package]]
 name = "dpetl"
-version = "0.5.1"
+version = "0.6.0"
 description = ""
 optional = false
-python-versions = "<4.0,>=3.10"
+python-versions = ">=3.10,<4.0"
 groups = ["main"]
-files = [
-    {file = "dpetl-0.5.1-py3-none-any.whl", hash = "sha256:73b66b51159d94c2aa6696568cb05425b739938d6996961ab5e9cc0db458f8d3"},
-    {file = "dpetl-0.5.1.tar.gz", hash = "sha256:ef4276ff23a70b25d5e758cc2c4646fc480967b8771a2d2377969fb57cefafa4"},
-]
+files = []
+develop = true
 
 [package.dependencies]
 frictionless = {version = ">=5.18.1,<6.0.0", extras = ["pandas"]}
@@ -376,6 +374,10 @@ imap-tools = ">=1.11.1,<2.0.0"
 pysocks = ">=1.7.1,<2.0.0"
 python-dotenv = ">=1.2.1,<2.0.0"
 taskipy = ">=1.14.1,<2.0.0"
+
+[package.source]
+type = "directory"
+url = "../dpetl"
 
 [[package]]
 name = "executing"
@@ -2096,4 +2098,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13,<4.0"
-content-hash = "32d8c6fecbfff2c3f93816de1a5a25bf6f6f83967a6037ba7b83f90e8c6380e0"
+content-hash = "39b1245ed422619149ce0b765afd9d935aaba5d8f9958adb1aa6f63b0c225ee2"

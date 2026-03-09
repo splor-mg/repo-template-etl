@@ -12,7 +12,7 @@ resources:
     format: csv
     mediatype: text/csv
     encoding: utf-8
-    dialect: dialect.yaml
+    dialect: schemas/dialect.yaml
     schema: schemas/execucao.yaml
     dpetl_extract:
       mode: email
@@ -25,7 +25,7 @@ resources:
     format: csv
     mediatype: text/csv
     encoding: utf-8
-    dialect: dialect.yaml
+    dialect: schemas/dialect.yaml
     schema: schemas/credito.yaml
     dpetl_extract:
       mode: email
@@ -38,7 +38,7 @@ resources:
     format: csv
     mediatype: text/csv
     encoding: utf-8
-    dialect: dialect.yaml
+    dialect: schemas/dialect.yaml
     schema: schemas/cota.yaml
     dpetl_extract:
       mode: email
@@ -51,7 +51,7 @@ resources:
     format: csv
     mediatype: text/csv
     encoding: utf-8
-    dialect: dialect.yaml
+    dialect: schemas/dialect.yaml
     schema: schemas/receita.yaml
     dpetl_extract:
       mode: email
@@ -64,7 +64,7 @@ resources:
     format: csv
     mediatype: text/csv
     encoding: utf-8
-    dialect: dialect.yaml
+    dialect: schemas/dialect.yaml
     schema: schemas/alteracoes_orcamentarias.yaml
     dpetl_extract:
       mode: email
@@ -80,7 +80,7 @@ resources:
     format: csv
     mediatype: text/csv
     encoding: utf-8
-    dialect: dialect.yaml
+    dialect: schemas/dialect.yaml
     schema: schemas/restos_pagar.yaml
     dpetl_extract:
       mode: email
@@ -93,7 +93,7 @@ resources:
     format: csv
     mediatype: text/csv
     encoding: utf-8
-    dialect: dialect.yaml
+    dialect: schemas/dialect.yaml
     schema: schemas/restos_pagar_folha.yaml
     dpetl_extract:
       mode: email
@@ -106,7 +106,7 @@ resources:
     format: csv
     mediatype: text/csv
     encoding: utf-8
-    dialect: dialect.yaml
+    dialect: schemas/dialect.yaml
     schema: schemas/execucao_alem_credito.yaml
     dpetl_extract:
       mode: email
