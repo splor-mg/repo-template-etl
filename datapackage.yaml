@@ -17,7 +17,7 @@ resources:
     encoding: utf-8
     schema: schemas/consonants.yaml
     dialect: schemas/dialect_v1.yaml
-    extract_info:
+    dpetl_extract:
       mode: email
   - name: vowels
     title: Vogais
@@ -30,5 +30,5 @@ resources:
     encoding: utf-8
     schema: schemas/vowels.yaml
     dialect: schemas/dialect_v1.yaml
-    extract_info:
+    dpetl_extract:
       mode: email
